@@ -22,6 +22,7 @@ Roughly ordered: correctness → resilience → data → distributed systems →
 1. **Idempotency keys** — safe retries for writes (no double charges)
 2. **Cursor pagination** — why OFFSET dies at scale, and the fix
 3. **N+1** - fix N+1 and most importantly catch them on CI
+4. **Optimistic Locking** - lost update fix when 2 actors update same rows
 
 ## Status
 
