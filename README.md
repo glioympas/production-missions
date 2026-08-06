@@ -16,13 +16,11 @@ The README is the actual point. Code you can copy. Understanding the trade-off i
 
 ## The missions
 
-Roughly ordered: correctness → resilience → data → distributed systems → observability → security → architecture. Later ones lean on earlier ones. But it's a suggestion, not a rule — if something grabs you, do it.
-
-### Part I — API Design & Correctness
 1. **Idempotency keys** — safe retries for writes (no double charges)
 2. **Cursor pagination** — why OFFSET dies at scale, and the fix
 3. **N+1** - fix N+1 and most importantly catch them on CI
 4. **Optimistic Locking** - lost update fix when 2 actors update same rows
+5. **API Versioning** - API versioning, with deprecation planning, backward-compatible
 
 ## Status
 
