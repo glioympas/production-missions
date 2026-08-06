@@ -21,6 +21,7 @@ The README is the actual point. Code you can copy. Understanding the trade-off i
 3. **N+1** - fix N+1 and most importantly catch them on CI
 4. **Optimistic Locking** - lost update fix when 2 actors update same rows
 5. **API Versioning** - API versioning, with deprecation planning, backward-compatible
+6. **Bulk / Batch Endpoints** — N items in one request, partial success via per-item transactions
 
 ## Status
 
