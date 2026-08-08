@@ -22,6 +22,7 @@ The README is the actual point. Code you can copy. Understanding the trade-off i
 4. **Optimistic Locking** - lost update fix when 2 actors update same rows
 5. **API Versioning** - API versioning, with deprecation planning, backward-compatible
 6. **Bulk / Batch Endpoints** — N items in one request, partial success via per-item transactions
+7. **Transactional Outbox** - never lose an event when a DB write must also notify another system
 
 ## Status
 
